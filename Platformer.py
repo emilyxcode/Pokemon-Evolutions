@@ -2,7 +2,6 @@ import pygame
 import random
 import math
 
-
 FLOAT_HEIGHT = 14
 FLOAT_BOB_RANGE = 4
 FLOAT_BOB_SPEED = 4

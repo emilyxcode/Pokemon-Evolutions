@@ -17,9 +17,7 @@ pkm_rect = pkm.get_rect(center=(WIDTH // 2, HEIGHT // 2))
 pkmx = WIDTH // 2 
 pkmy = HEIGHT // 2 
 
-tracks = {
-    
-}
+
 pygame.mixer.music.load("tvBackground.mp3")
 pygame.mixer.music.set_volume(0.6)
 pygame.mixer.music.play(-1)
@@ -41,7 +39,7 @@ while running:
 
     if pkmx - 50 <= 0 or pkmx + 50 >= WIDTH: 
         dx = -dx 
-        pygame.mixer.sound.play()
+        
 
     if pkmy - 61 <= 0 or pkmy + 61 >= HEIGHT: 
         dy = -dy 
